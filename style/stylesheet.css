@@ -1,0 +1,37 @@
+@import url(movies.css);
+@import url(home.css);
+
+body {
+	background: url("../img/bg_overlay.png")  no-repeat center fixed, url("../img/background2.jpg") no-repeat center fixed;
+	background-size: cover, cover;
+}
+
+.wrapperTitle 
+{
+	font-size: 14px;
+	padding: 0 0 5px 2px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.formStyle p {
+	padding: 0;
+	margin: 0;
+	padding-top: 5px;
+}
+
+.formStyle .button {
+	margin-top: 5px;
+}
+
+.formStyle input {
+	width: 400px;
+}
+
+.formStyle .error {
+	color: red;
+}
+
+#about  {
+	font-size: 14px;
+}

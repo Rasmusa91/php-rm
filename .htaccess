@@ -1,0 +1,26 @@
+RewriteEngine On
+
+#SERVER
+#RewriteBase /~raap11/DV1485/project/
+
+#SERVER
+ErrorDocument 400 /~raap11/DV1485/project/error/
+ErrorDocument 401 /~raap11/DV1485/project/error/
+ErrorDocument 403 /~raap11/DV1485/project/error/
+ErrorDocument 404 /~raap11/DV1485/project/error/
+ErrorDocument 500 /~raap11/DV1485/project/error/
+
+#LOCALHOST
+#ErrorDocument 404 /BTHWebb/DV1485/project/error/
+
+#DEFAULT
+RewriteRule ^index\.htm/?$ index.php
+
+RewriteRule ^([^/\.]+)/?$ index.php?p=$1 [QSA,C]
+RewriteRule ^([^/\.]+)/?\?$ index.php?p=$1& [QSA]
+
+RewriteRule ^([^/\.]+)/([^/\.]+)/?$ index.php?p=$1&subp=$2 [QSA,C]
+RewriteRule ^([^/\.]+)/([^/\.]+)/?\?$ index.php?p=$1&subp=$2& [QSA]
+
+RewriteRule ^([^/\.]+)/([^/\.]+)/([^/\.]+)/?$ index.php?p=$1&subp=$2&subsubp=$3 [QSA,C]
+RewriteRule ^([^/\.]+)/([^/\.]+)/([^/\.]+)/?\?$ index.php?p=$1&subp=$2&subsubp=$3& [QSA]

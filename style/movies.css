@@ -1,0 +1,195 @@
+.manageMoviesWrapper
+{
+	border: 1px solid black;
+	background: rgb(23, 23, 23);	
+	padding: 5px;
+}
+
+.manageMoviesInnerWrapper
+{
+	background: rgb(12, 12, 12);
+	padding: 0 10px 10px 10px;
+	border: 1px solid black;
+}
+
+.manageMoviesForm {
+	width: 45%;
+	float: left;
+}
+
+.manageMoviesForm input, .manageMoviesForm textarea {
+	width: 430px;
+}
+
+.manageMoviesForm textarea
+{
+	height: 200px;
+}
+
+.manageMoviesTitle 
+{
+	font-size: 14px;
+	margin-top: 5px;
+	padding: 3px 5px 5px 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.manageMoviesForm p
+{
+	padding-bottom: 0;
+	margin-bottom: 2px;
+} 
+
+.manageMoviesForm .button {
+	margin-top: 10px;
+}
+
+.manageMovieIMDBScannerWrapper
+{
+	float: right;
+	width: 50%;
+}
+
+.manageMovieIMDBScannerWrapperInner
+{
+	border: 1px solid black;
+	background: rgb(23, 23, 23);
+	
+	font-size: 16px;
+	padding: 5px;
+}
+
+.manageMovieIMDBScannerWrapperInner p
+{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+
+.manageMovieIMDBScannerWrapperInnerInner
+{
+	background: rgb(12, 12, 12);
+	padding: 5px;
+	border: 1px solid black;
+}
+
+.manageMovieIMDBScannerWrapperInner a {
+	margin-top: 5px;
+	float: right;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+.manageMovieIMDBScannerWrapperInner a:hover{
+	background: rgb(18, 18, 18);
+}
+
+.manageMovieIMDBScannerWrapperInner p 
+{
+	padding: 5px 5px 2px 5px;
+}
+
+.manageMovieIMDBScannerWrapperInner input
+{
+	width: 360px;
+}
+
+#manageMovieAdditionalImages input 
+{
+	width: 430px;
+}
+
+.manageMoviesInnerWrapper .error
+{
+	color: red;
+	margin: 2px 0 0 0;
+}
+
+.movieSingleImage
+{
+	float: left;
+	display: inline-block;
+	padding: 5px 5px 2px 5px !important;
+}
+
+.movieSingleImage img
+{
+	border: 1px solid black;
+}
+
+.movieSingleRight {
+	float: left;
+	padding-left: 10px;
+	width: 70%;
+}
+
+.movieSingleTitle
+{
+	font-size: 24px;
+	float: left;
+	margin-bottom: 5px;
+}
+
+.movieSinglePriceGenre
+{
+	margin: 10px 0;
+}
+
+.movieSingleGenre
+{
+	float: left;
+}
+
+.movieSinglePrice
+{
+	float: right;
+	font-size: 18px;
+}
+
+.movieSingleAdditionalImage
+{
+	display: inline-block;
+	padding: 5px 5px 2px 5px !important;
+	margin-top: 5px;
+}
+
+.movieSingleAdditionalImage img 
+{
+	border: 1px solid black;
+}
+
+.movieSingleAdmin
+{
+	float: right;
+	font-size: 14px;
+	margin: 5px;
+}
+
+.movieSingleExtra
+{
+	margin-top: 20px;
+}
+
+.movieSingleExtra p
+{
+	margin: 0;
+}
+
+.movieSingleExtra b
+{
+	font-size: 13px;
+}
+
+.movieSingleAdmin form {
+	display: inline;
+}
+
+.moviesAdd
+{
+	position: relative;
+	float: right;
+	top: 7px;
+	height: 0;
+	padding-right: 10px;
+}

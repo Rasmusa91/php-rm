@@ -1,0 +1,84 @@
+#home .title
+{
+	font-size: 16px;
+	padding-bottom: 5px;
+	overflow: hidden;
+}
+
+#home .genres
+{
+	float: right;
+	padding: 2px;
+}
+
+#home .view
+{
+	width: 98%;
+	font-size: 12px;
+	padding: 5px;
+	text-align: right;
+}
+
+#home .seperator
+{
+	height: 5px;
+}
+
+#home .newsInnerWrapper
+{
+	display: inline-block;
+	width: 221px;
+	height: 200px;
+}
+
+.newsInnerWrapper .newsTitle a {
+	display: inline-block;
+	max-width: 90%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.newsInnerWrapper .newsContent {
+	display: inline-block;
+	max-height: 90%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: break-all;
+}
+
+.moviePrice {
+	width: 100%;
+	text-align: right;
+	height: 0;
+	position: relative;
+	top: 10px;
+	right: 10px;
+	color: white;
+	font-size: 26px;
+	text-shadow: 2px 2px #000;
+}
+
+.lastRented, .mostPopular
+{
+	width: 48.55%;
+}
+
+.lastRented
+{
+	float: left;
+}
+
+.mostPopular 
+{
+	float: right;
+}
+
+.movieSingle
+{
+	display: inline-block;
+	padding: 5px 5px 2px 5px !important;
+}
+
+.mostPopular .moviePrice, .lastRented .moviePrice {
+	font-size: 50px;
+}
